@@ -89,4 +89,23 @@ nav:
       - 13. Compatibility: dimensions/13-compatibility.md
       - 14. Safety and compliance: dimensions/14-safety.md
       - 15. Change quality: dimensions/15-pr-scope.md
+  - Research:
+      - Research plan: research/research-plan.md
+      - Reference map: research/reference-map.md
+      - Gaps and conflicts: research/gaps-and-conflicts.md
+      - Resources to acquire: research/user-acquisition-list.md
+  - Specialist guidance:
+      - Python middle layer: specialists/python-middle-layer.md
+      - Functional-style Python: specialists/python-functional.md
+      - Python data layer: specialists/python-data-layer.md
+      - SQL quality: specialists/sql.md
+      - React: specialists/react.md
+      - Node.js: specialists/node.md
+      - Next.js: specialists/nextjs.md
+      - Security engineering: specialists/security.md
+      - Data architecture: specialists/data-architecture.md
+      - Data engineering: specialists/data-engineering.md
+      - Prompt design: specialists/prompt-design.md
+      - Agent design: specialists/agent-design.md
+      - Agent engineering: specialists/agent-engineering.md
   - Contribute: process/contributing-knowledge.md

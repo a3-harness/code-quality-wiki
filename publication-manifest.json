@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "a3-code-quality/scripts/publish_wiki.py",
+  "generator_version": "1.0.0",
+  "source_commit": "5dd12b8208e7d6f8a6a0987c052e87e76fac4a3a",
+  "pages": [
+    {
+      "id": "python-middle-layer",
+      "route": "specialists/python-middle-layer.md",
+      "sha256": "deb69f61428e63f553fbcd6cf8fccc3aeaf219812554a9f03bd485e9f41cafd8",
+      "source": "knowledge/specialists/python-middle-layer.md"
+    },
+    {
+      "id": "python-functional",
+      "route": "specialists/python-functional.md",
+      "sha256": "a445cd8aa7b76dfb74f0034831971977379e60965381d902247bf2b339aae0ca",
+      "source": "knowledge/specialists/python-functional.md"
+    },
+    {
+      "id": "python-data-layer",
+      "route": "specialists/python-data-layer.md",
+      "sha256": "1e8373311c6a3b5ca5a6584cb6af23be31243a182be65f4d52a6fefcffbe1dd8",
+      "source": "knowledge/specialists/python-data-layer.md"
+    },
+    {
+      "id": "sql",
+      "route": "specialists/sql.md",
+      "sha256": "daf4ef6b34d35e50d1faea8cf490872daade175740f2cff6a0a81d3fc8405c6f",
+      "source": "knowledge/specialists/sql.md"
+    },
+    {
+      "id": "react",
+      "route": "specialists/react.md",
+      "sha256": "dff3be4dd533745c7797f9188f6461d7f51f946d6f1df51c5de8c5443be05f46",
+      "source": "knowledge/specialists/react.md"
+    },
+    {
+      "id": "node",
+      "route": "specialists/node.md",
+      "sha256": "044d19321dfe690e8789a0e4b94b7c558813ff410eabe1b7e804f3397e886a0d",
+      "source": "knowledge/specialists/node.md"
+    },
+    {
+      "id": "nextjs",
+      "route": "specialists/nextjs.md",
+      "sha256": "50acfce1e4321ea28c19e985d18f1d8e4f85da344149323c492fb92ee7b078da",
+      "source": "knowledge/specialists/nextjs.md"
+    },
+    {
+      "id": "security",
+      "route": "specialists/security.md",
+      "sha256": "fd329e6b909572acbb792306b132fa1be036a592c1cdbb17b1b02dac737ea405",
+      "source": "knowledge/specialists/security.md"
+    },
+    {
+      "id": "data-architecture",
+      "route": "specialists/data-architecture.md",
+      "sha256": "3dbe88f3628b44fdced85251046420e0f7dfe7d0aed8926e5e5b6d3e5ebeef78",
+      "source": "knowledge/specialists/data-architecture.md"
+    },
+    {
+      "id": "data-engineering",
+      "route": "specialists/data-engineering.md",
+      "sha256": "3b8aab5f53e5af72bec259621659eacf615d0dd01c61e1d25e06bc69472f783e",
+      "source": "knowledge/specialists/data-engineering.md"
+    },
+    {
+      "id": "prompt-design",
+      "route": "specialists/prompt-design.md",
+      "sha256": "70add5a627d0aa01538c7a2cdbc585d13318596e16e48054fad77b561152a0a2",
+      "source": "knowledge/specialists/prompt-design.md"
+    },
+    {
+      "id": "agent-design",
+      "route": "specialists/agent-design.md",
+      "sha256": "6544f00c6206dfe91f5588b1bed0b225b09d2f2802ea34ab88a48479b4ce1a24",
+      "source": "knowledge/specialists/agent-design.md"
+    },
+    {
+      "id": "agent-engineering",
+      "route": "specialists/agent-engineering.md",
+      "sha256": "9d7e1fd8a80ea549cfaea7d37b256ade0fe1c69e9403a1963d21ee5b5c6dbf03",
+      "source": "knowledge/specialists/agent-engineering.md"
+    }
+  ]
+}
