@@ -15,6 +15,7 @@ PUBLISHED_PATHS = (
     "index.html",
     "process",
     "research",
+    "robots.txt",
     "search",
     "specialists",
     "sitemap.xml",
