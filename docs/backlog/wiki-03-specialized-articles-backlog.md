@@ -36,3 +36,24 @@ Recommended sequence: 301–304 establish application/data boundaries; 307–310
 cover runtime and security; 305–306 cover distributed data; 311–313 finish with
 evaluation-led AI system guidance. Articles may proceed independently after
 their required evidence fixture is defined.
+
+## PUB-314 — Reconcile and verify canonical publication
+
+- **Rationale:** The generated articles matched canonical content, but the
+  publication manifest still identified the pre-delivery source commit, causing
+  the publisher's drift check to fail.
+- **Affected files/modules:** `publication-manifest.json`, generated root site,
+  Wiki 03 demo and delivery-status evidence.
+- **Implementation steps:** Run the canonical test suite; regenerate all pages
+  and the manifest from the current `a3-code-quality` commit; rebuild the root
+  MkDocs site; run reference, site, and second-generation drift checks.
+- **Unit test expectations:** All `a3-code-quality` unit tests pass, including
+  publisher determinism and editorial-region preservation.
+- **E2E test expectations:** Strict MkDocs build, registry validation, root-site
+  smoke test, and `publish_wiki.py --check` all pass.
+- **Demo relevance:** Proves the complete canonical-source-to-published-wiki
+  workflow rather than relying on file presence or commit history alone.
+- **Acceptance criteria:** The manifest identifies the current canonical source
+  commit, generated output is clean on a second run, and the local wiki commit
+  is ready for an explicit push.
+- **Status:** complete
