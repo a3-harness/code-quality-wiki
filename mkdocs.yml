@@ -1,0 +1,91 @@
+site_name: Software Quality Knowledge Base
+site_description: Evidence-first guidance for reviewing software changes and systems.
+site_url: https://a3-harness.github.io/code-quality-wiki/
+repo_url: https://github.com/a3-harness/code-quality-wiki
+repo_name: a3-harness/code-quality-wiki
+edit_uri: edit/main/docs/
+copyright: Built for practitioners who automate facts, assist inference, and escalate judgment.
+exclude_docs: |
+  backlog/
+  deliverables-status/
+  demos/
+  phases/
+  installed-software.md
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/check-decagram-outline
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Review process:
+      - Workflow: process/review-workflow.md
+      - Evidence and confidence: process/evidence-and-confidence.md
+      - Severity and decisions: process/severity-and-decisions.md
+      - Escalation: process/escalation.md
+  - Quality dimensions:
+      - 1. Correctness: dimensions/01-correctness.md
+      - 2. Readability: dimensions/02-readability.md
+      - 3. Design: dimensions/03-design.md
+      - 4. Architecture: dimensions/04-architecture.md
+      - 5. Maintainability: dimensions/05-maintainability.md
+      - 6. Test quality: dimensions/06-test-quality.md
+      - 7. Security and privacy: dimensions/07-security.md
+      - 8. Reliability: dimensions/08-reliability.md
+      - 9. Performance: dimensions/09-performance.md
+      - 10. Concurrency: dimensions/10-concurrency.md
+      - 11. Data integrity: dimensions/11-data-integrity.md
+      - 12. Operability: dimensions/12-operability.md
+      - 13. Compatibility: dimensions/13-compatibility.md
+      - 14. Safety and compliance: dimensions/14-safety.md
+      - 15. Change quality: dimensions/15-pr-scope.md
+  - Contribute: process/contributing-knowledge.md
