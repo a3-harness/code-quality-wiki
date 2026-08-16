@@ -81,6 +81,54 @@
       "route": "specialists/agent-engineering.md",
       "sha256": "9d7e1fd8a80ea549cfaea7d37b256ade0fe1c69e9403a1963d21ee5b5c6dbf03",
       "source": "knowledge/specialists/agent-engineering.md"
+    },
+    {
+      "id": "tool-source-ingestion",
+      "route": "tooling/source-ingestion.md",
+      "sha256": "2f32d26d29b134349a21fb57d81d65d76a7554ff7ad5203e42e6c0e6284c8d6e",
+      "source": "knowledge/tooling/source-ingestion.md"
+    },
+    {
+      "id": "tool-knowledge-contracts",
+      "route": "tooling/knowledge-contracts.md",
+      "sha256": "a60cf83d1d2a334bb844e64be2c084d24226c2805552935350f141aa2f12a2be",
+      "source": "knowledge/tooling/knowledge-contracts.md"
+    },
+    {
+      "id": "tool-evidence-pipeline",
+      "route": "tooling/evidence-pipeline.md",
+      "sha256": "01a634eb30688c4dca962383a5022155ec7cd2b2f11fc01700c88034f597d8e0",
+      "source": "knowledge/tooling/evidence-pipeline.md"
+    },
+    {
+      "id": "tool-knowledge-retrieval",
+      "route": "tooling/knowledge-retrieval.md",
+      "sha256": "a33175c280f2a39b57416040078d54d715b656e9205975b6adaf983125b2a429",
+      "source": "knowledge/tooling/knowledge-retrieval.md"
+    },
+    {
+      "id": "tool-ai-review",
+      "route": "tooling/ai-assisted-review.md",
+      "sha256": "349ecde78357b4177c8cbd95b7a77fa026e7ab0c5614f7b3feec2e50ccfda8ca",
+      "source": "knowledge/tooling/ai-assisted-review.md"
+    },
+    {
+      "id": "tool-evaluation",
+      "route": "tooling/evaluation.md",
+      "sha256": "56c59a935d346ca4bf726b3de48c63511ad2836876624092e98a6e5102f2b77d",
+      "source": "knowledge/tooling/evaluation.md"
+    },
+    {
+      "id": "tool-publication",
+      "route": "tooling/wiki-publication.md",
+      "sha256": "fe12391546dafd4eedd4346af4e146667efb3b9ba7737f1dbbe7ef55b3ad749b",
+      "source": "knowledge/tooling/wiki-publication.md"
+    },
+    {
+      "id": "tool-governance",
+      "route": "tooling/governance.md",
+      "sha256": "3d837fd7e71a7fe4418952d76f4c6ddd4c4735d013bf9958b3da2b6969f45f28",
+      "source": "knowledge/tooling/governance.md"
     }
   ]
 }

@@ -108,4 +108,13 @@ nav:
       - Prompt design: specialists/prompt-design.md
       - Agent design: specialists/agent-design.md
       - Agent engineering: specialists/agent-engineering.md
+  - Constructing quality tools:
+      - Source ingestion: tooling/source-ingestion.md
+      - Structured knowledge contracts: tooling/knowledge-contracts.md
+      - Evidence pipeline: tooling/evidence-pipeline.md
+      - Knowledge retrieval: tooling/knowledge-retrieval.md
+      - AI-assisted review: tooling/ai-assisted-review.md
+      - Evaluation and promotion gates: tooling/evaluation.md
+      - Reproducible wiki publication: tooling/wiki-publication.md
+      - Knowledge governance: tooling/governance.md
   - Contribute: process/contributing-knowledge.md

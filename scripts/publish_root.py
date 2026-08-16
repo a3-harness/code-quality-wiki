@@ -20,6 +20,7 @@ PUBLISHED_PATHS = (
     "sitemap.xml",
     "sitemap.xml.gz",
     "stylesheets",
+    "tooling",
 )
 
 

@@ -152,4 +152,36 @@
          <loc>https://a3-harness.github.io/code-quality-wiki/specialists/sql/</loc>
          <lastmod>2026-08-16</lastmod>
     </url>
+    <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/tooling/ai-assisted-review/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
+    <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/tooling/evaluation/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
+    <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/tooling/evidence-pipeline/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
+    <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/tooling/governance/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
+    <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/tooling/knowledge-contracts/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
+    <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/tooling/knowledge-retrieval/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
+    <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/tooling/source-ingestion/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
+    <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/tooling/wiki-publication/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
 </urlset>
