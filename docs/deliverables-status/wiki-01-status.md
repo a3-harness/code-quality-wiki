@@ -1,6 +1,6 @@
 # Wiki 01 deliverables status
 
-Status: locally complete; publication awaiting external push and Pages enablement.
+Status: locally complete; branch-root publication awaiting external push.
 
 | Deliverable | Status |
 | --- | --- |
@@ -9,7 +9,8 @@ Status: locally complete; publication awaiting external push and Pages enablemen
 | Five process guides | Complete |
 | Reader navigation and search | Complete |
 | Strict local build | Complete |
-| GitHub Pages workflow | Complete; awaiting push |
+| Root static HTML | Complete; awaiting push |
+| Validation workflow | Complete; read-only drift check |
 | Live public site | Pending external deployment |
 
 ## Local evidence
@@ -21,8 +22,7 @@ Status: locally complete; publication awaiting external push and Pages enablemen
 
 ## Publication handoff
 
-Local commit `372f23c` contains the complete site. The execution environment
-rejected `git push` because network mutation requires an unavailable approval
-path. Push with `/code/push.sh --repo code-quality-wiki`, set the repository's
-Pages source to **GitHub Actions**, and verify the `Publish knowledge base`
-workflow plus the configured public URL.
+The execution environment rejects `git push` because network mutation requires
+an unavailable approval path. Push with `/code/push.sh --wiki-only`; keep the
+repository's Pages source on **Deploy from a branch**, branch `main`, folder
+`/(root)`, and verify the public URL.

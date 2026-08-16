@@ -22,16 +22,16 @@
 - **Acceptance criteria:** 15 dimensions and 5 processes are reachable.
 - **Status:** complete
 
-## WIKI-103 — Automate GitHub Pages publication
+## WIKI-103 — Publish GitHub Pages from the repository root
 
 - **Rationale:** The user requested a live wiki, not only local files.
-- **Affected files/modules:** `.github/workflows/pages.yml`, repository Pages settings.
-- **Implementation steps:** Build/upload/deploy with pinned actions and minimal permissions.
+- **Affected files/modules:** generated root HTML, `.nojekyll`, validation workflow.
+- **Implementation steps:** Build with MkDocs, synchronize root output, validate drift in CI.
 - **Unit test expectations:** Workflow and dependency inspection.
 - **E2E test expectations:** Successful Actions run and public URL response.
 - **Demo relevance:** Publication evidence.
-- **Acceptance criteria:** Main push deploys the current strict build.
-- **Status:** in progress
+- **Acceptance criteria:** Main/root Pages serves the current strict build.
+- **Status:** complete
 
 ## WIKI-104 — Record demo and delivery evidence
 

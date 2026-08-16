@@ -24,8 +24,8 @@ Deliver a production-valid MkDocs Material site and GitHub Pages workflow.
 - Provide clear home navigation, site search, responsive theme, light/dark modes,
   edit links, and accessible semantic Markdown.
 - Build with `mkdocs build --strict` using pinned dependencies.
-- Deploy from `main` through GitHub's Pages artifact workflow.
-- Use least-privilege workflow permissions and immutable action pins.
+- Publish committed static HTML from `main` / repository root.
+- Validate generated output in CI with least privilege and immutable action pins.
 
 ## Non-goals
 
@@ -47,8 +47,8 @@ MkDocs 1.6.1 and Material for MkDocs 9.7.7, project-locally installed and pinned
 
 ## Architecture notes
 
-Markdown and `mkdocs.yml` are canonical; `site/` is generated and never committed.
-GitHub Actions produces and deploys an ephemeral Pages artifact.
+Markdown and `mkdocs.yml` are canonical; MkDocs output is generated into a
+temporary directory and synchronized into the repository root for branch-based Pages.
 
 ## Data, API, and configuration changes
 
@@ -66,7 +66,7 @@ links, required HTML titles, and absence of committed build output.
 
 ## Security and sandbox considerations
 
-Workflow permissions are scoped per job. Actions are pinned to immutable SHAs.
+Workflow permissions are read-only. Actions are pinned to immutable SHAs.
 No secrets or analytics are required. Published content must contain no private data.
 
 ## Risks
@@ -76,8 +76,8 @@ knowledge may drift. Record publication state and make synchronization explicit.
 
 ## Acceptance criteria
 
-Local strict build passes, all content is navigable/searchable, CI configuration
-is valid, main is pushed, Pages deployment succeeds, and the public URL responds.
+Local strict build passes, generated root content is current and searchable, CI
+is valid, main is pushed, branch-root Pages deployment succeeds, and the URL responds.
 
 ## Rollback plan
 

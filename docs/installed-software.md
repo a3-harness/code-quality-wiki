@@ -6,5 +6,5 @@
 - **Reason:** build and validate the static knowledge wiki.
 - **Scope:** project-local development, test, and documentation build tooling.
 - **Reproducibility:** direct dependencies are pinned in `requirements.txt`;
-  CI installs the same file. The `.venv/` and generated `site/` directories are ignored.
-- **Cleanup:** remove `.venv/` and `site/`; no global package installation is performed.
+  CI installs the same file. The `.venv/` and temporary `.build-site/` directories are ignored.
+- **Cleanup:** remove `.venv/` and `.build-site/`; no global package installation is performed.

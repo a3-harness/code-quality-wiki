@@ -3,12 +3,16 @@ from __future__ import annotations
 import json
 import re
 import sys
+import argparse
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
-SITE = ROOT / "site"
+parser = argparse.ArgumentParser()
+parser.add_argument("--site-dir", type=Path, default=ROOT / ".build-site")
+args = parser.parse_args()
+SITE = args.site_dir.resolve()
 DIMENSION_RE = re.compile(r"^\d{2}-[a-z0-9-]+\.md$")
 LINK_RE = re.compile(r"\[[^]]+\]\(([^) #]+)(?:#[^)]+)?\)")
 

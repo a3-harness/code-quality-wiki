@@ -1,6 +1,7 @@
 site_name: Software Quality Knowledge Base
 site_description: Evidence-first guidance for reviewing software changes and systems.
 site_url: https://a3-harness.github.io/code-quality-wiki/
+site_dir: .build-site
 repo_url: https://github.com/a3-harness/code-quality-wiki
 repo_name: a3-harness/code-quality-wiki
 edit_uri: edit/main/docs/

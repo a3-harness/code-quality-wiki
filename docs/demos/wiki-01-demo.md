@@ -3,14 +3,13 @@
 ## Local commands
 
 ```bash
-.venv/bin/mkdocs build --strict
-python scripts/check_site.py
+.venv/bin/python scripts/publish_root.py
+.venv/bin/python scripts/check_site.py --site-dir .
 ```
 
 ## Publication checks
 
 ```bash
-gh run list --workflow pages.yml --limit 1
 curl --fail --location https://a3-harness.github.io/code-quality-wiki/
 ```
 

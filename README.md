@@ -17,16 +17,24 @@ Open <http://127.0.0.1:8000/>. Validate a production build with:
 .venv/bin/mkdocs build --strict
 ```
 
-## Publishing
+## Publishing from `main` / repository root
 
-Pushing `main` runs `.github/workflows/pages.yml`. The workflow builds the site,
-uploads a GitHub Pages artifact, and deploys it to:
+Generate and commit the static HTML at the repository root:
+
+```bash
+.venv/bin/python scripts/publish_root.py
+git add -A
+git commit -m "update published wiki"
+git push
+```
+
+GitHub Pages serves those committed files from `main` / `(root)` at:
 
 <https://a3-harness.github.io/code-quality-wiki/>
 
-The repository's Pages source must be set to **GitHub Actions**. The workflow
-uses only `contents: read`, `pages: write`, and `id-token: write`, with every
-third-party action pinned to a commit SHA.
+The repository's Pages source must be **Deploy from a branch**, branch `main`,
+folder `/(root)`. The validation workflow rebuilds the site and fails if the
+committed HTML is stale.
 
 ## Content ownership
 
