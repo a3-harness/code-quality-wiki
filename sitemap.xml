@@ -65,6 +65,10 @@
          <lastmod>2026-08-16</lastmod>
     </url>
     <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/process/ai-software-engineering/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
+    <url>
          <loc>https://a3-harness.github.io/code-quality-wiki/process/contributing-knowledge/</loc>
          <lastmod>2026-08-16</lastmod>
     </url>
@@ -113,6 +117,10 @@
          <lastmod>2026-08-16</lastmod>
     </url>
     <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/specialists/ai-software-engineering/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
+    <url>
          <loc>https://a3-harness.github.io/code-quality-wiki/specialists/data-architecture/</loc>
          <lastmod>2026-08-16</lastmod>
     </url>
@@ -158,6 +166,10 @@
     </url>
     <url>
          <loc>https://a3-harness.github.io/code-quality-wiki/tooling/ai-assisted-review/</loc>
+         <lastmod>2026-08-16</lastmod>
+    </url>
+    <url>
+         <loc>https://a3-harness.github.io/code-quality-wiki/tooling/coding-harness-audit/</loc>
          <lastmod>2026-08-16</lastmod>
     </url>
     <url>

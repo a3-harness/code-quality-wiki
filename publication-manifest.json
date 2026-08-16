@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "generator": "a3-code-quality/scripts/publish_wiki.py",
   "generator_version": "1.0.0",
-  "source_commit": "5bb94f7a3606b322db54dde2237e2b6baf6dde65",
+  "source_commit": "949b334bc8a807c73f097ce7b975b60514ff2e66",
   "pages": [
     {
       "id": "python-middle-layer",
@@ -83,6 +83,12 @@
       "source": "knowledge/specialists/agent-engineering.md"
     },
     {
+      "id": "ai-software-engineering",
+      "route": "specialists/ai-software-engineering.md",
+      "sha256": "006d83643219cb4b0ad574501d0b0683e4292076ad4dd2f1f303394c48175a72",
+      "source": "knowledge/specialists/ai-software-engineering.md"
+    },
+    {
       "id": "tool-source-ingestion",
       "route": "tooling/source-ingestion.md",
       "sha256": "2f32d26d29b134349a21fb57d81d65d76a7554ff7ad5203e42e6c0e6284c8d6e",
@@ -137,10 +143,22 @@
       "source": "knowledge/tooling/project-context-rendering.md"
     },
     {
+      "id": "tool-harness-audit",
+      "route": "tooling/coding-harness-audit.md",
+      "sha256": "d4aa5a08c0488176ec4850b9e336ed6f43794c8d363466b95148c1600348a49f",
+      "source": "knowledge/tooling/coding-harness-audit.md"
+    },
+    {
       "id": "process-project-context",
       "route": "process/project-context.md",
       "sha256": "4c09091276fb71417e0818a98d494179e3497ef6720979aae94e5e04f0464007",
       "source": "knowledge/process/project-context.md"
+    },
+    {
+      "id": "process-ai-software-engineering",
+      "route": "process/ai-software-engineering.md",
+      "sha256": "7b8882ba4a571c05bd5181a258f750a2af10b212c50d83224604c5c6aca17a8e",
+      "source": "knowledge/process/ai-software-engineering.md"
     }
   ]
 }

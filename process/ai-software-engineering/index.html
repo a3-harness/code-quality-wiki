@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://a3-harness.github.io/code-quality-wiki/tooling/project-context-rendering/">
+        <link rel="canonical" href="https://a3-harness.github.io/code-quality-wiki/process/ai-software-engineering/">
       
       
-        <link rel="prev" href="../governance/">
+        <link rel="prev" href="../project-context/">
       
       
-        <link rel="next" href="../coding-harness-audit/">
+        <link rel="next" href="../../dimensions/01-correctness/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Project-context rendering - Software Quality Knowledge Base</title>
+        <title>AI software engineering - Software Quality Knowledge Base</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#constructing-project-context-inventory-and-knowledge-rendering" class="md-skip">
+        <a href="#operate-coding-agents-as-an-engineering-system" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Project-context rendering
+              AI software engineering
             
           </span>
         </div>
@@ -291,8 +291,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -303,11 +305,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -328,7 +330,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -346,7 +348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../process/review-workflow/" class="md-nav__link">
+      <a href="../review-workflow/" class="md-nav__link">
         
   
   
@@ -374,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../process/evidence-and-confidence/" class="md-nav__link">
+      <a href="../evidence-and-confidence/" class="md-nav__link">
         
   
   
@@ -402,7 +404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../process/severity-and-decisions/" class="md-nav__link">
+      <a href="../severity-and-decisions/" class="md-nav__link">
         
   
   
@@ -430,7 +432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../process/escalation/" class="md-nav__link">
+      <a href="../escalation/" class="md-nav__link">
         
   
   
@@ -458,7 +460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../process/project-context/" class="md-nav__link">
+      <a href="../project-context/" class="md-nav__link">
         
   
   
@@ -483,10 +485,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../process/ai-software-engineering/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI software engineering
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -502,6 +531,125 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#capability-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capability model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#put-policy-on-the-right-surface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Put policy on the right surface
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#context-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Context engineering
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#action-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action security
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delegation-and-concurrency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Delegation and concurrency
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation loop
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#improvement-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Improvement loop
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adoption-sequence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adoption sequence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editorial-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editorial notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1619,8 +1767,6 @@
       
   
   
-    
-  
   
   
     
@@ -1633,11 +1779,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
@@ -1658,7 +1804,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1676,7 +1822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../source-ingestion/" class="md-nav__link">
+      <a href="../../tooling/source-ingestion/" class="md-nav__link">
         
   
   
@@ -1704,7 +1850,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../knowledge-contracts/" class="md-nav__link">
+      <a href="../../tooling/knowledge-contracts/" class="md-nav__link">
         
   
   
@@ -1732,7 +1878,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../evidence-pipeline/" class="md-nav__link">
+      <a href="../../tooling/evidence-pipeline/" class="md-nav__link">
         
   
   
@@ -1760,7 +1906,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../knowledge-retrieval/" class="md-nav__link">
+      <a href="../../tooling/knowledge-retrieval/" class="md-nav__link">
         
   
   
@@ -1788,7 +1934,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ai-assisted-review/" class="md-nav__link">
+      <a href="../../tooling/ai-assisted-review/" class="md-nav__link">
         
   
   
@@ -1816,7 +1962,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../evaluation/" class="md-nav__link">
+      <a href="../../tooling/evaluation/" class="md-nav__link">
         
   
   
@@ -1844,7 +1990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../wiki-publication/" class="md-nav__link">
+      <a href="../../tooling/wiki-publication/" class="md-nav__link">
         
   
   
@@ -1872,7 +2018,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../governance/" class="md-nav__link">
+      <a href="../../tooling/governance/" class="md-nav__link">
         
   
   
@@ -1897,37 +2043,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Project-context rendering
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../tooling/project-context-rendering/" class="md-nav__link">
         
   
   
@@ -1943,125 +2062,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#implementation-status" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Implementation status
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Architecture
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#core-algorithm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Core algorithm
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#evidence-and-confidence" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Evidence and confidence
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#failure-handling" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Failure handling
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tests-to-build" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tests to build
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security-considerations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Security considerations
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#planned-extensions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Planned extensions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#editorial-notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Editorial notes
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2074,7 +2074,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../coding-harness-audit/" class="md-nav__link">
+      <a href="../../tooling/coding-harness-audit/" class="md-nav__link">
         
   
   
@@ -2109,7 +2109,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../process/contributing-knowledge/" class="md-nav__link">
+      <a href="../contributing-knowledge/" class="md-nav__link">
         
   
   
@@ -2156,10 +2156,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#implementation-status" class="md-nav__link">
+  <a href="#capability-model" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Implementation status
+        Capability model
       
     </span>
   </a>
@@ -2167,10 +2167,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#architecture" class="md-nav__link">
+  <a href="#put-policy-on-the-right-surface" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Architecture
+        Put policy on the right surface
       
     </span>
   </a>
@@ -2178,10 +2178,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#core-algorithm" class="md-nav__link">
+  <a href="#context-engineering" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Core algorithm
+        Context engineering
       
     </span>
   </a>
@@ -2189,10 +2189,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#evidence-and-confidence" class="md-nav__link">
+  <a href="#action-security" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Evidence and confidence
+        Action security
       
     </span>
   </a>
@@ -2200,10 +2200,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#failure-handling" class="md-nav__link">
+  <a href="#delegation-and-concurrency" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Failure handling
+        Delegation and concurrency
       
     </span>
   </a>
@@ -2211,10 +2211,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tests-to-build" class="md-nav__link">
+  <a href="#evaluation-loop" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tests to build
+        Evaluation loop
       
     </span>
   </a>
@@ -2222,10 +2222,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#security-considerations" class="md-nav__link">
+  <a href="#improvement-loop" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Security considerations
+        Improvement loop
       
     </span>
   </a>
@@ -2233,10 +2233,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#planned-extensions" class="md-nav__link">
+  <a href="#adoption-sequence" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Planned extensions
+        Adoption sequence
       
     </span>
   </a>
@@ -2271,7 +2271,7 @@
 
 
   
-    <a href="https://github.com/a3-harness/code-quality-wiki/edit/main/docs/tooling/project-context-rendering.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/a3-harness/code-quality-wiki/edit/main/docs/process/ai-software-engineering.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -2281,51 +2281,129 @@
 
 <!-- generated-from: a3-code-quality; do not edit -->
 
-<h1 id="constructing-project-context-inventory-and-knowledge-rendering">Constructing project-context inventory and knowledge rendering<a class="headerlink" href="#constructing-project-context-inventory-and-knowledge-rendering" title="Permanent link">&para;</a></h1>
-<h2 id="implementation-status">Implementation status<a class="headerlink" href="#implementation-status" title="Permanent link">&para;</a></h2>
-<p><strong>Built foundation.</strong> <code>qreview project-inventory</code> deterministically inventories a local repository, and <code>qreview project-render</code> turns that JSON into a tailored draft guide. Semantic architecture recovery, reviewed overlays, monorepo unit selection, and optional evaluated LLM synthesis are planned.</p>
-<h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h2>
-<p>Use a two-artifact design:</p>
-<div class="highlight"><pre><span></span><code>target repository → deterministic inventory.json → generated project-guide.md
-                              ↑                         ↓
-                    evidence paths/confidence    human ratification overlay
-                              └──── general knowledge retrieval ────┘
+<h1 id="operate-coding-agents-as-an-engineering-system">Operate coding agents as an engineering system<a class="headerlink" href="#operate-coding-agents-as-an-engineering-system" title="Permanent link">&para;</a></h1>
+<p>A coding harness is the control plane around a model. It selects and scopes instructions, exposes tools, mediates permissions, connects external systems, delegates work, preserves state, and decides what evidence reaches a human. Manage that control plane with the same rigor as build and deployment infrastructure.</p>
+<h2 id="capability-model">Capability model<a class="headerlink" href="#capability-model" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Capability</th>
+<th>Purpose</th>
+<th>Preferred evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Task contract</td>
+<td>Goal, context, constraints, done condition</td>
+<td>Issue/plan and acceptance checks</td>
+</tr>
+<tr>
+<td>Durable instructions</td>
+<td>Repository layout, commands, conventions, boundaries</td>
+<td>Concise versioned guidance</td>
+</tr>
+<tr>
+<td>Skills</td>
+<td>Reusable, on-demand workflow</td>
+<td>Trigger fixtures and output contracts</td>
+</tr>
+<tr>
+<td>Mechanical policy</td>
+<td>Enforce action authority</td>
+<td>Sandbox, permissions, command rules</td>
+</tr>
+<tr>
+<td>Hooks</td>
+<td>Enforce or observe lifecycle events</td>
+<td>Contract tests and trusted definitions</td>
+</tr>
+<tr>
+<td>External tools</td>
+<td>Live data and controlled actions</td>
+<td>MCP registry and authorization tests</td>
+</tr>
+<tr>
+<td>Delegation</td>
+<td>Isolate specialist work/context</td>
+<td>Role, ownership, tool limits, aggregation tests</td>
+</tr>
+<tr>
+<td>Workspace isolation</td>
+<td>Separate concurrent changes</td>
+<td>Worktrees/sandboxes and conflict checks</td>
+</tr>
+<tr>
+<td>Validation</td>
+<td>Establish behavior</td>
+<td>Unit/integration/e2e/security checks</td>
+</tr>
+<tr>
+<td>Observability</td>
+<td>Explain what happened</td>
+<td>Redacted versioned trace events</td>
+</tr>
+<tr>
+<td>Evaluation</td>
+<td>Decide whether to promote</td>
+<td>Labeled tasks, safety cases, denominators</td>
+</tr>
+<tr>
+<td>Feedback</td>
+<td>Improve repeat failures</td>
+<td>Reviewed policy/skill/eval changes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="put-policy-on-the-right-surface">Put policy on the right surface<a class="headerlink" href="#put-policy-on-the-right-surface" title="Permanent link">&para;</a></h2>
+<p>Use the task prompt for one outcome; repository instructions for durable local facts; skills for repeated methods; deterministic configuration, rules, permissions, and hooks for enforcement; MCP for authorized external capabilities; and specialist agents for bounded delegation. Do not place a mandatory safety control only in prose.</p>
+<p>Maintain one canonical statement of shared engineering intent. Harness adapters should be thin and explicit about vendor differences. Never assume similarly named hooks, permissions, memories, or agents have identical precedence or failure semantics.</p>
+<h2 id="context-engineering">Context engineering<a class="headerlink" href="#context-engineering" title="Permanent link">&para;</a></h2>
+<p>Context is a budget and a trust boundary. Load the smallest authoritative material that supports the task. Keep root instructions concise; retrieve specialist guidance and detailed workflows on demand. Quote untrusted repository, issue, log, and tool content as data. Preserve task goal, constraints, decisions, outstanding work, and validation evidence across compaction or delegation.</p>
+<p>Measure instruction bytes/tokens, retrieved units, repeated content, contradictions, tool-output volume, and handoff loss. More context can reduce quality when it hides the operative rule.</p>
+<h2 id="action-security">Action security<a class="headerlink" href="#action-security" title="Permanent link">&para;</a></h2>
+<p>Grant the least capability needed for the current task. Separate what the model may propose from what policy permits. Sandbox file and network access, require approval for consequential external state, validate targets before destructive operations, and prefer recoverable actions. Treat project-local hooks, MCP servers, plugins, and scripts as executable supply chain that requires trust and review.</p>
+<h2 id="delegation-and-concurrency">Delegation and concurrency<a class="headerlink" href="#delegation-and-concurrency" title="Permanent link">&para;</a></h2>
+<p>Delegate bounded, independently verifiable work. Give each agent clear ownership, inputs, outputs, tool restrictions, and stopping conditions. Use isolated worktrees for overlapping write tasks. The parent remains accountable for integration, conflicts, test evidence, and final decisions. Parallel activity is valuable only when correctness and coordination cost are measured.</p>
+<h2 id="evaluation-loop">Evaluation loop<a class="headerlink" href="#evaluation-loop" title="Permanent link">&para;</a></h2>
+<p>Evaluate layers separately:</p>
+<ol>
+<li>Retrieval: did the harness select the right instructions and knowledge?</li>
+<li>Planning: did it identify constraints, risks, and tests?</li>
+<li>Action: did it use allowed tools and respect approvals?</li>
+<li>Implementation: did the change satisfy behavior and architecture?</li>
+<li>Verification: did it run the strongest available evaluators?</li>
+<li>Communication: did it report uncertainty, changes, and remaining risk accurately?</li>
+<li>Operations: were latency, cost, failure, recovery, and human effort acceptable?</li>
+</ol>
+<p>Use representative, adversarial, absence-of-evidence, and recovery cases. Record denominators and versions. A model or harness upgrade is a new configuration requiring regression evaluation.</p>
+<h2 id="improvement-loop">Improvement loop<a class="headerlink" href="#improvement-loop" title="Permanent link">&para;</a></h2>
+<p>When an agent fails repeatedly, classify the cause before adding prose:</p>
+<div class="highlight"><pre><span></span><code>missing project fact       → repository instruction or project inventory
+repeated workflow          → skill
+mechanically decidable     → formatter, validator, rule, permission, or hook
+missing external context   → governed MCP/resource
+specialist noisy task      → bounded subagent
+model behavior variance    → prompt/model/tool change plus eval
+ambiguous ownership        → human decision and architecture record
 </code></pre></div>
-<p>The scanner observes paths, manifests, configuration, naming counts, and import edges without executing target code. The renderer applies precedence, retrieves specialist packs, and exposes unknowns. An AI adapter may enrich inference but must produce the same contract and remain advisory.</p>
-<h2 id="core-algorithm">Core algorithm<a class="headerlink" href="#core-algorithm" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>INVENTORY(root):
-  files ← WALK(root) excluding VCS, dependencies, builds, caches, and secrets
-  languages ← COUNT recognized suffixes
-  standards ← FIND agent guides, ADRs, contribution docs, schemas, and configs
-  dependencies, commands ← PARSE manifests without execution
-  library_choices ← MAP present dependencies to capabilities
-  layers, utilities ← CLASSIFY directory names; label inferred
-  entrypoints, tests, naming ← OBSERVE paths and counts
-  import_edges ← PARSE supported syntax; aggregate internal edges
-  questions ← EMIT for missing or ambiguous intent
-  return SORTED contract with paths, confidence, limitations, and no bodies
-
-RENDER(inventory, knowledge_catalog, reviewed_overlay?):
-  ASSERT supported schema
-  relevant ← RETRIEVE by languages, frameworks, layers, and risks
-  guide ← precedence + scope + observations + inferences + relevant knowledge
-  guide ← guide + contradictions + maintainer questions + AI boundary
-  if reviewed_overlay exists: MERGE only into a distinct ratified section
-  return deterministic Markdown
-</code></pre></div>
-<h2 id="evidence-and-confidence">Evidence and confidence<a class="headerlink" href="#evidence-and-confidence" title="Permanent link">&para;</a></h2>
-<p>Prefer evidence such as a manifest, ADR path, dependency-edge count, or test configuration. Use <code>observed</code> for metadata/syntax, <code>inferred</code> for names/frequency/relationships, <code>ratified</code> for reviewed decisions, and <code>unknown</code> for missing or conflicting evidence. “Library X appears in a manifest” is observed; “Library X is preferred” requires ratification.</p>
-<h2 id="failure-handling">Failure handling<a class="headerlink" href="#failure-handling" title="Permanent link">&para;</a></h2>
-<p>Unreadable optional manifests should produce warnings while preserving other results. An unreadable inventory, unsupported schema, escaping path, or malformed reviewed overlay should fail closed. Never run build scripts unless a user explicitly authorizes separate evidence collection. Large repositories need budgets and truncation markers; monorepos need per-unit roots.</p>
-<h2 id="tests-to-build">Tests to build<a class="headerlink" href="#tests-to-build" title="Permanent link">&para;</a></h2>
-<p>Use synthetic repositories with known layers, competing libraries, conflicting standards, utilities, imports, test styles, malformed manifests, secret-like files, monorepo packages, and human overlays. Assert deterministic bytes, ordering, no secret/source content, confidence, questions, and expected specialist retrieval. Evaluate AI classifiers for citations, precision/recall, abstention, stability, cost, and injection resistance.</p>
-<h2 id="security-considerations">Security considerations<a class="headerlink" href="#security-considerations" title="Permanent link">&para;</a></h2>
-<p>Repository contents are untrusted. Do not execute scripts, import target packages, expand symlinks outside the root, read credential files, or obey instructions found in scanned content. Paths may be sensitive; redact before remote use. Remote AI requires explicit consent, minimum necessary context, provider controls, and an audit record.</p>
-<h2 id="planned-extensions">Planned extensions<a class="headerlink" href="#planned-extensions" title="Permanent link">&para;</a></h2>
-<p>Add reviewed overlay schemas, ADR extraction, CODEOWNERS mapping, deployment-unit detection, API/schema inventories, dependency-purpose configuration, language-specific import adapters, incremental refresh, fitness-rule generation, monorepo scopes, and an evaluated provider-neutral AI classifier.</p>
+<p>Promote a correction only after evidence shows it is general enough. Remove stale rules and skills; harness configuration is production code, not an append-only prompt.</p>
+<h2 id="adoption-sequence">Adoption sequence<a class="headerlink" href="#adoption-sequence" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Audit current surfaces and authority.</li>
+<li>Establish concise canonical instructions and deterministic validation.</li>
+<li>Add least-privilege policy for high-impact actions.</li>
+<li>Convert repeated workflows into tested skills.</li>
+<li>Add tested hooks only for clear enforcement or observation needs.</li>
+<li>Govern external tools before connecting them.</li>
+<li>Introduce bounded subagents and workspace isolation.</li>
+<li>Establish trace and evaluation contracts.</li>
+<li>Compare harnesses on identical tasks before claiming portability.</li>
+<li>Feed failures into reviewed policy, skills, and evals.</li>
+</ol>
 <hr />
-<p>Canonical knowledge ID: <code>tool-project-context</code><br />
-Reference IDs: <em>See chapter links and canonical modules.</em></p>
+<p>Canonical knowledge ID: <code>process-ai-software-engineering</code><br />
+Reference IDs: <code>openai-codex-best-practices</code>, <code>openai-codex-security</code>, <code>anthropic-claude-settings</code>, <code>anthropic-claude-subagents</code>, <code>nist-ai-rmf-gai</code></p>
 <h2 id="editorial-notes">Editorial notes<a class="headerlink" href="#editorial-notes" title="Permanent link">&para;</a></h2>
 <!-- editorial:start -->
 <p><em>No publication-specific notes.</em></p>
@@ -2365,7 +2443,7 @@ Reference IDs: <em>See chapter links and canonical modules.</em></p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../governance/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Knowledge governance">
+          <a href="../project-context/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Establish project context">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2375,20 +2453,20 @@ Reference IDs: <em>See chapter links and canonical modules.</em></p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Knowledge governance
+                Establish project context
               </div>
             </div>
           </a>
         
         
           
-          <a href="../coding-harness-audit/" class="md-footer__link md-footer__link--next" aria-label="Next: Coding-harness readiness audit">
+          <a href="../../dimensions/01-correctness/" class="md-footer__link md-footer__link--next" aria-label="Next: 1. Correctness">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Coding-harness readiness audit
+                1. Correctness
               </div>
             </div>
             <div class="md-footer__button md-icon">

@@ -74,6 +74,7 @@ nav:
       - Severity and decisions: process/severity-and-decisions.md
       - Escalation: process/escalation.md
       - Establish project context: process/project-context.md
+      - AI software engineering: process/ai-software-engineering.md
   - Quality dimensions:
       - 1. Correctness: dimensions/01-correctness.md
       - 2. Readability: dimensions/02-readability.md
@@ -109,6 +110,7 @@ nav:
       - Prompt design: specialists/prompt-design.md
       - Agent design: specialists/agent-design.md
       - Agent engineering: specialists/agent-engineering.md
+      - AI software engineering: specialists/ai-software-engineering.md
   - Constructing quality tools:
       - Source ingestion: tooling/source-ingestion.md
       - Structured knowledge contracts: tooling/knowledge-contracts.md
@@ -119,4 +121,5 @@ nav:
       - Reproducible wiki publication: tooling/wiki-publication.md
       - Knowledge governance: tooling/governance.md
       - Project-context rendering: tooling/project-context-rendering.md
+      - Coding-harness readiness audit: tooling/coding-harness-audit.md
   - Contribute: process/contributing-knowledge.md

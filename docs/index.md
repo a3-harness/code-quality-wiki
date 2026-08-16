@@ -8,6 +8,7 @@ observable signal from a defensible engineering judgment.
 
 [Start the review workflow](process/review-workflow.md){ .md-button .md-button--primary }
 [Browse quality dimensions](dimensions/01-correctness.md){ .md-button }
+[Engineer coding harnesses](process/ai-software-engineering.md){ .md-button }
 
 ## How to use this wiki
 
@@ -69,6 +70,7 @@ comment per category.
 - [Severity and decisions](process/severity-and-decisions.md): calibrate consequence and action.
 - [Escalation](process/escalation.md): recognize when ordinary PR review is insufficient.
 - [Establish project context](process/project-context.md): render the general knowledge into a project-specific guide before applying it.
+- [AI software engineering](process/ai-software-engineering.md): operate instructions, tools, permissions, hooks, delegation, validation, and evals as one controlled system.
 
 ## Knowledge model
 

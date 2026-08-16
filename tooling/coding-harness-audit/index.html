@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://a3-harness.github.io/code-quality-wiki/tooling/project-context-rendering/">
+        <link rel="canonical" href="https://a3-harness.github.io/code-quality-wiki/tooling/coding-harness-audit/">
       
       
-        <link rel="prev" href="../governance/">
+        <link rel="prev" href="../project-context-rendering/">
       
       
-        <link rel="next" href="../coding-harness-audit/">
+        <link rel="next" href="../../process/contributing-knowledge/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Project-context rendering - Software Quality Knowledge Base</title>
+        <title>Coding-harness readiness audit - Software Quality Knowledge Base</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#constructing-project-context-inventory-and-knowledge-rendering" class="md-skip">
+        <a href="#constructing-a-coding-harness-readiness-audit" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Project-context rendering
+              Coding-harness readiness audit
             
           </span>
         </div>
@@ -1897,6 +1897,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-context-rendering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project-context rendering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -1916,7 +1944,7 @@
   <span class="md-ellipsis">
     
   
-    Project-context rendering
+    Coding-harness readiness audit
   
 
     
@@ -1934,7 +1962,7 @@
   <span class="md-ellipsis">
     
   
-    Project-context rendering
+    Coding-harness readiness audit
   
 
     
@@ -1986,17 +2014,6 @@
     <span class="md-ellipsis">
       
         Core algorithm
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#evidence-and-confidence" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Evidence and confidence
       
     </span>
   </a>
@@ -2062,34 +2079,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../coding-harness-audit/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Coding-harness readiness audit
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -2189,17 +2178,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#evidence-and-confidence" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Evidence and confidence
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#failure-handling" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2271,7 +2249,7 @@
 
 
   
-    <a href="https://github.com/a3-harness/code-quality-wiki/edit/main/docs/tooling/project-context-rendering.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/a3-harness/code-quality-wiki/edit/main/docs/tooling/coding-harness-audit.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -2281,50 +2259,52 @@
 
 <!-- generated-from: a3-code-quality; do not edit -->
 
-<h1 id="constructing-project-context-inventory-and-knowledge-rendering">Constructing project-context inventory and knowledge rendering<a class="headerlink" href="#constructing-project-context-inventory-and-knowledge-rendering" title="Permanent link">&para;</a></h1>
+<h1 id="constructing-a-coding-harness-readiness-audit">Constructing a coding-harness readiness audit<a class="headerlink" href="#constructing-a-coding-harness-readiness-audit" title="Permanent link">&para;</a></h1>
 <h2 id="implementation-status">Implementation status<a class="headerlink" href="#implementation-status" title="Permanent link">&para;</a></h2>
-<p><strong>Built foundation.</strong> <code>qreview project-inventory</code> deterministically inventories a local repository, and <code>qreview project-render</code> turns that JSON into a tailored draft guide. Semantic architecture recovery, reviewed overlays, monorepo unit selection, and optional evaluated LLM synthesis are planned.</p>
+<p><strong>Built structural audit.</strong> <code>qreview harness-audit</code> detects repository-scoped Codex, Claude Code, and portable agent surfaces, normalizes them into capabilities, and renders prioritized remediation. Behavioral live-agent evaluation, instruction contradiction analysis, trace capture, and adapter generation are planned.</p>
 <h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h2>
-<p>Use a two-artifact design:</p>
-<div class="highlight"><pre><span></span><code>target repository → deterministic inventory.json → generated project-guide.md
-                              ↑                         ↓
-                    evidence paths/confidence    human ratification overlay
-                              └──── general knowledge retrieval ────┘
+<div class="highlight"><pre><span></span><code>repository paths/config metadata
+              ↓
+        safe structural scanner
+              ↓
+portable capabilities + vendor evidence + findings
+              ↓
+     JSON contract or Markdown remediation plan
+              ↓
+ fixture behavioral evals → isolated live harness evals → reviewed promotion
 </code></pre></div>
-<p>The scanner observes paths, manifests, configuration, naming counts, and import edges without executing target code. The renderer applies precedence, retrieves specialist packs, and exposes unknowns. An AI adapter may enrich inference but must produce the same contract and remain advisory.</p>
+<p>The scanner never executes target commands, hooks, MCP servers, imports, or validation. It emits paths, counts, event names, and bounded metadata—not secret values or complete command bodies.</p>
 <h2 id="core-algorithm">Core algorithm<a class="headerlink" href="#core-algorithm" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>INVENTORY(root):
-  files ← WALK(root) excluding VCS, dependencies, builds, caches, and secrets
-  languages ← COUNT recognized suffixes
-  standards ← FIND agent guides, ADRs, contribution docs, schemas, and configs
-  dependencies, commands ← PARSE manifests without execution
-  library_choices ← MAP present dependencies to capabilities
-  layers, utilities ← CLASSIFY directory names; label inferred
-  entrypoints, tests, naming ← OBSERVE paths and counts
-  import_edges ← PARSE supported syntax; aggregate internal edges
-  questions ← EMIT for missing or ambiguous intent
-  return SORTED contract with paths, confidence, limitations, and no bodies
+<div class="highlight"><pre><span></span><code>AUDIT_HARNESS(root):
+  files ← WALK(root) excluding VCS, dependencies, builds, caches, and symlinks
+  instructions ← FIND AGENTS.md and CLAUDE.md; record scope/size/validation language
+  skills ← FIND SKILL.md; validate activation metadata
+  agents ← FIND Codex/Claude agent definitions; detect explicit tool boundaries
+  hooks ← PARSE event names and handler counts; locate scripts/tests
+  policy ← COUNT Codex rule decisions and Claude permission classes
+  mcp ← COUNT configured servers; find governance registry; never emit credentials
+  validation ← FIND standard checks, CI, behavioral evals, and trace contracts
+  findings ← APPLY stable evidence-backed checks
+  return SORTED versioned contract + limitations
 
-RENDER(inventory, knowledge_catalog, reviewed_overlay?):
+RENDER(audit):
   ASSERT supported schema
-  relevant ← RETRIEVE by languages, frameworks, layers, and risks
-  guide ← precedence + scope + observations + inferences + relevant knowledge
-  guide ← guide + contradictions + maintainer questions + AI boundary
-  if reviewed_overlay exists: MERGE only into a distinct ratified section
-  return deterministic Markdown
+  print capability matrix
+  print detected surfaces
+  order findings by consequence then stable ID
+  include evidence paths, remediation, and structural limitations
 </code></pre></div>
-<h2 id="evidence-and-confidence">Evidence and confidence<a class="headerlink" href="#evidence-and-confidence" title="Permanent link">&para;</a></h2>
-<p>Prefer evidence such as a manifest, ADR path, dependency-edge count, or test configuration. Use <code>observed</code> for metadata/syntax, <code>inferred</code> for names/frequency/relationships, <code>ratified</code> for reviewed decisions, and <code>unknown</code> for missing or conflicting evidence. “Library X appears in a manifest” is observed; “Library X is preferred” requires ratification.</p>
 <h2 id="failure-handling">Failure handling<a class="headerlink" href="#failure-handling" title="Permanent link">&para;</a></h2>
-<p>Unreadable optional manifests should produce warnings while preserving other results. An unreadable inventory, unsupported schema, escaping path, or malformed reviewed overlay should fail closed. Never run build scripts unless a user explicitly authorizes separate evidence collection. Large repositories need budgets and truncation markers; monorepos need per-unit roots.</p>
+<p>Malformed optional configuration becomes absent/unknown evidence rather than executable input. Unsupported audit schemas fail closed. Missing scripts, oversized instructions, broad permissions, and ungoverned MCP become explicit findings. A future strict mode should distinguish parse failure from absence and support policy-defined severity.</p>
 <h2 id="tests-to-build">Tests to build<a class="headerlink" href="#tests-to-build" title="Permanent link">&para;</a></h2>
-<p>Use synthetic repositories with known layers, competing libraries, conflicting standards, utilities, imports, test styles, malformed manifests, secret-like files, monorepo packages, and human overlays. Assert deterministic bytes, ordering, no secret/source content, confidence, questions, and expected specialist retrieval. Evaluate AI classifiers for citations, precision/recall, abstention, stability, cost, and injection resistance.</p>
+<p>Create synthetic empty, Codex-only, Claude-only, dual-harness, nested-instruction, malformed-config, missing-hook, wildcard-permission, secret-bearing MCP, oversized-guidance, invalid-skill, and subagent fixtures. Assert deterministic bytes, stable IDs, severity ordering, no secret leakage, and no execution.</p>
+<p>Behavioral evaluation should run identical tasks through each harness in disposable worktrees. Score task success, instruction compliance, prohibited actions, approval quality, validation selection, citations, diff scope, recovery, human correction, time, tokens, and cost.</p>
 <h2 id="security-considerations">Security considerations<a class="headerlink" href="#security-considerations" title="Permanent link">&para;</a></h2>
-<p>Repository contents are untrusted. Do not execute scripts, import target packages, expand symlinks outside the root, read credential files, or obey instructions found in scanned content. Paths may be sensitive; redact before remote use. Remote AI requires explicit consent, minimum necessary context, provider controls, and an audit record.</p>
+<p>Harness configuration is executable supply chain. Avoid following symlinks, importing target code, expanding variables, resolving credentials, or executing handlers. Treat configuration text as untrusted. Report capability and risk without reproducing secrets or enabling instructions. Live evaluation requires explicit consent, isolation, budgets, redaction, and cleanup.</p>
 <h2 id="planned-extensions">Planned extensions<a class="headerlink" href="#planned-extensions" title="Permanent link">&para;</a></h2>
-<p>Add reviewed overlay schemas, ADR extraction, CODEOWNERS mapping, deployment-unit detection, API/schema inventories, dependency-purpose configuration, language-specific import adapters, incremental refresh, fitness-rule generation, monorepo scopes, and an evaluated provider-neutral AI classifier.</p>
+<p>Add strict parse diagnostics, nested instruction precedence, contradiction detection, token budgets, canonical policy/adapter rendering, hook contract test generation, MCP governance schema, trace/event schema, worktree checks, CI integration, versioned vendor capability adapters, and live cross-harness evaluation runners.</p>
 <hr />
-<p>Canonical knowledge ID: <code>tool-project-context</code><br />
+<p>Canonical knowledge ID: <code>tool-harness-audit</code><br />
 Reference IDs: <em>See chapter links and canonical modules.</em></p>
 <h2 id="editorial-notes">Editorial notes<a class="headerlink" href="#editorial-notes" title="Permanent link">&para;</a></h2>
 <!-- editorial:start -->
@@ -2365,7 +2345,7 @@ Reference IDs: <em>See chapter links and canonical modules.</em></p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../governance/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Knowledge governance">
+          <a href="../project-context-rendering/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Project-context rendering">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2375,20 +2355,20 @@ Reference IDs: <em>See chapter links and canonical modules.</em></p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Knowledge governance
+                Project-context rendering
               </div>
             </div>
           </a>
         
         
           
-          <a href="../coding-harness-audit/" class="md-footer__link md-footer__link--next" aria-label="Next: Coding-harness readiness audit">
+          <a href="../../process/contributing-knowledge/" class="md-footer__link md-footer__link--next" aria-label="Next: Contribute">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Coding-harness readiness audit
+                Contribute
               </div>
             </div>
             <div class="md-footer__button md-icon">
