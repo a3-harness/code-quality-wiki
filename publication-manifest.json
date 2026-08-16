@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "generator": "a3-code-quality/scripts/publish_wiki.py",
   "generator_version": "1.0.0",
-  "source_commit": "949b334bc8a807c73f097ce7b975b60514ff2e66",
+  "source_commit": "f75244f26ea03e7801c9268d1702ea6e6f9ce057",
   "pages": [
     {
       "id": "python-middle-layer",
@@ -147,6 +147,12 @@
       "route": "tooling/coding-harness-audit.md",
       "sha256": "d4aa5a08c0488176ec4850b9e336ed6f43794c8d363466b95148c1600348a49f",
       "source": "knowledge/tooling/coding-harness-audit.md"
+    },
+    {
+      "id": "tool-live-llm-validation",
+      "route": "tooling/live-llm-validation.md",
+      "sha256": "33ecbb2f752a0f02b659857edfe9454e1d34d58aae09f6edad36c919ef5e13b7",
+      "source": "knowledge/tooling/live-llm-validation.md"
     },
     {
       "id": "process-project-context",

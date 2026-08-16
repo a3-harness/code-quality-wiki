@@ -122,4 +122,5 @@ nav:
       - Knowledge governance: tooling/governance.md
       - Project-context rendering: tooling/project-context-rendering.md
       - Coding-harness readiness audit: tooling/coding-harness-audit.md
+      - Credential-safe live LLM validation: tooling/live-llm-validation.md
   - Contribute: process/contributing-knowledge.md
