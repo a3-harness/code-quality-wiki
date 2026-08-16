@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "generator": "a3-code-quality/scripts/publish_wiki.py",
   "generator_version": "1.0.0",
-  "source_commit": "86bba2272dc24e5a714efecd0c15b9833d15914c",
+  "source_commit": "5bb94f7a3606b322db54dde2237e2b6baf6dde65",
   "pages": [
     {
       "id": "python-middle-layer",
@@ -129,6 +129,18 @@
       "route": "tooling/governance.md",
       "sha256": "3d837fd7e71a7fe4418952d76f4c6ddd4c4735d013bf9958b3da2b6969f45f28",
       "source": "knowledge/tooling/governance.md"
+    },
+    {
+      "id": "tool-project-context",
+      "route": "tooling/project-context-rendering.md",
+      "sha256": "59b60780497c64b2c4c4f53749c486137c4755155ccb0db6ca43f87397cf1018",
+      "source": "knowledge/tooling/project-context-rendering.md"
+    },
+    {
+      "id": "process-project-context",
+      "route": "process/project-context.md",
+      "sha256": "4c09091276fb71417e0818a98d494179e3497ef6720979aae94e5e04f0464007",
+      "source": "knowledge/process/project-context.md"
     }
   ]
 }

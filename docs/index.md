@@ -11,11 +11,12 @@ observable signal from a defensible engineering judgment.
 
 ## How to use this wiki
 
-1. **Establish intent.** Understand the outcome, constraints, and affected users.
-2. **Select relevant lenses.** Choose dimensions connected to credible failure modes.
-3. **Follow the evidence.** Match each claim to the strongest available evaluator.
-4. **Make the judgment explicit.** State mechanism, consequence, confidence, and decision.
-5. **Escalate when needed.** Pull system-level or specialist decisions out of ordinary line review.
+1. **Establish project context.** Inventory local architecture, standards, dependencies, utilities, and conventions without mistaking frequency for policy.
+2. **Establish intent.** Understand the outcome, constraints, and affected users.
+3. **Select relevant lenses.** Choose dimensions connected to credible failure modes.
+4. **Follow the evidence.** Match each claim to the strongest available evaluator.
+5. **Make the judgment explicit.** State mechanism, consequence, confidence, and decision.
+6. **Escalate when needed.** Pull system-level or specialist decisions out of ordinary line review.
 
 The dimensions are lenses, not quotas. A reviewer should not manufacture one
 comment per category.
@@ -67,6 +68,7 @@ comment per category.
 - [Evidence and confidence](process/evidence-and-confidence.md): match claims to evaluators.
 - [Severity and decisions](process/severity-and-decisions.md): calibrate consequence and action.
 - [Escalation](process/escalation.md): recognize when ordinary PR review is insufficient.
+- [Establish project context](process/project-context.md): render the general knowledge into a project-specific guide before applying it.
 
 ## Knowledge model
 

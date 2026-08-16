@@ -73,6 +73,7 @@ nav:
       - Evidence and confidence: process/evidence-and-confidence.md
       - Severity and decisions: process/severity-and-decisions.md
       - Escalation: process/escalation.md
+      - Establish project context: process/project-context.md
   - Quality dimensions:
       - 1. Correctness: dimensions/01-correctness.md
       - 2. Readability: dimensions/02-readability.md
@@ -117,4 +118,5 @@ nav:
       - Evaluation and promotion gates: tooling/evaluation.md
       - Reproducible wiki publication: tooling/wiki-publication.md
       - Knowledge governance: tooling/governance.md
+      - Project-context rendering: tooling/project-context-rendering.md
   - Contribute: process/contributing-knowledge.md
